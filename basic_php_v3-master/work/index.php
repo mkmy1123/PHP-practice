@@ -1,3 +1,8 @@
+<?php
+
+$message = 'こんにちは！' . date('l');
+
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -15,7 +20,7 @@
       </div>
       <div class="info">
         <h1>山田太郎</h1>
-        <p>UI/UXデザイナー見習いです</p>
+        <p><?= $message ?></p>
         <ul>
           <li>
             <a href="https://dotinstall.com" target="_blank">
